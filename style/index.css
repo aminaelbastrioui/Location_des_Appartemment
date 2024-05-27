@@ -1,0 +1,166 @@
+p {
+    text-align: justify;
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 1rem;
+    width: 40%;
+    height: 665px;
+    position: relative;
+}
+
+header img {
+    max-width: 60%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    margin-top: 25%;
+    width: 50%;
+}
+
+main {
+    color: white;
+    padding: 2rem;
+    padding-top: 40px;
+    width: 45%;
+    position: absolute;
+    left: 45%;
+    height: 600px;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+div {
+    display: flex;
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    height: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right:30%;
+
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+h1.h1,
+h1.h2 {
+    color: #000000;
+    display: inline; 
+    font-size: 3rem; 
+    font-weight: bold;
+    margin: 0; 
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+h1.h2 {
+    color: #2798D0;
+    margin-left: 5px; 
+}
+.ling{
+    margin-top: 60px;
+    border: 2px solid white;
+    height: 580px;
+    border-radius: 50px;
+}
+input[type="submit"] {
+    background-color: #2291E0;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 1rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    width: 200px;
+    height: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(7, 172, 255);
+}
+
+.in{
+    display: flex;
+    width: 80%;
+    text-align: center;
+    color: white;
+
+    padding-left: 130px;
+}
+.in1{
+    margin-left: 20px;
+}
+
+.divf {
+display: flex;
+justify-content: space-between;
+color: black; 
+margin-right: 20px;
+}
+
+.divf p {
+margin: 0;
+align-self: center;
+}
+
+.divf ul {
+list-style: none;
+padding: 0;
+margin: 0;
+display: flex;
+}
+
+.divf select {
+margin-left: 30PX; 
+
+}
